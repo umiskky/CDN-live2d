@@ -17,6 +17,7 @@ function loadWidget(config) {
 	}
 	localStorage.removeItem("waifu-display");
 	sessionStorage.removeItem("waifu-text");
+	// <span class="fa fa-lg fa-info-circle"></span>
 	document.body.insertAdjacentHTML("beforeend", `<div id="waifu">
 			<div id="waifu-tips"></div>
 			<canvas id="live2d" width="800" height="800"></canvas>
@@ -25,8 +26,7 @@ function loadWidget(config) {
 				<span class="fa fa-lg fa-paper-plane"></span>
 				<span class="fa fa-lg fa-user-circle"></span>
 				<span class="fa fa-lg fa-street-view"></span>
-				<span class="fa fa-lg fa-camera-retro"></span>
-				<span class="fa fa-lg fa-info-circle"></span>
+				<span class="fa fa-lg fa-camera-retro"></span>				
 				<span class="fa fa-lg fa-times"></span>
 			</div>
 		</div>`);
