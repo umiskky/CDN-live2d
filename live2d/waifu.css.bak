@@ -34,7 +34,13 @@
 }
 
 #waifu:hover {
-	transform: translateY(0);
+	transform: translateY(0)
+}
+
+@media (max-width: 768px) {
+	#waifu {
+		display: none !important 
+	}
 }
 
 #waifu-tips {
@@ -67,10 +73,8 @@
 }
 
 #waifu #live2d {
-	cursor: grab;
-	height: 300px;
-	position: relative;
-	width: 300px;
+	cursor: Default;
+	position: relative !important 
 }
 
 #waifu #live2d:active {
