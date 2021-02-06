@@ -1,5 +1,5 @@
 #waifu-toggle {
-	background-color: #fa0;
+	background-color: #66ccff;
 	border-radius: 5px;
 	bottom: 66px;
 	color: #fff;
@@ -7,10 +7,10 @@
 	font-size: 12px;
 	left: 0;
 	margin-left: -100px;
-	padding: 5px 2px 5px 5px;
+	padding: 5px 1px 5px 5px;
 	position: fixed;
 	transition: margin-left 1s;
-	width: 60px;
+	width: 70px;
 	writing-mode: vertical-rl;
 }
 
@@ -39,7 +39,7 @@
 
 @media (max-width: 768px) {
 	#waifu {
-		display: none !important 
+		display: none !important
 	}
 }
 
