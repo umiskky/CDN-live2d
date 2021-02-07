@@ -1,5 +1,5 @@
 #waifu-toggle {
-	background-color: #fa0;
+	background-color: #66ccff;
 	border-radius: 5px;
 	bottom: 66px;
 	color: #fff;
@@ -7,10 +7,10 @@
 	font-size: 12px;
 	left: 0;
 	margin-left: -100px;
-	padding: 5px 2px 5px 5px;
+	padding: 5px 1px 5px 5px;
 	position: fixed;
 	transition: margin-left 1s;
-	width: 60px;
+	width: 70px;
 	writing-mode: vertical-rl;
 }
 
@@ -26,7 +26,6 @@
 	bottom: -1000px;
 	left: 0;
 	line-height: 0;
-	margin-bottom: -10px;
 	position: fixed;
 	transform: translateY(3px);
 	transition: transform .3s ease-in-out, bottom 3s ease-in-out;
@@ -34,7 +33,13 @@
 }
 
 #waifu:hover {
-	transform: translateY(0);
+	transform: translateY(0)
+}
+
+@media (max-width: 768px) {
+	#waifu {
+		display: none !important
+	}
 }
 
 #waifu-tips {
@@ -68,9 +73,7 @@
 
 #waifu #live2d {
 	cursor: grab;
-	height: 300px;
 	position: relative;
-	width: 300px;
 }
 
 #waifu #live2d:active {
